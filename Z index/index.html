@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #first{
+            width: 200px;
+            height: 200px;
+            background-color: blueviolet;
+        }
+       
+        #second{
+            width: 200px;
+            height: 200px;
+            background-color: yellow;
+            position: absolute;
+            left: 25px;
+            top: 35px;
+
+            /*  it's index value is more so it come front and it not work in case of parent and  child */
+            z-index: 5;
+        }
+
+        #third{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            position: absolute;
+            left:45px;
+            bottom: 450px;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="first">1</div>
+    <div id="second">2</div>
+    <div id="third">3</div>
+</body>
+</html>

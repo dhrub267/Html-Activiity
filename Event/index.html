@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .activePara{
+            text-align: center;
+            color:aqua;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <button id="css">click me</button>
+    <button id="addClass">Add Class</button>
+    <button id="removeClass">Remove class</button>
+    <button id="toggleClass">toggle</button>
+    <p>It's me Dhrub Kumar Thakur</p>
+    
+</body>
+<script>
+    const btn1=document.querySelector("#css");
+    const paragraph=document.querySelector("p");
+    btn1.addEventListener("click",()=>{
+        paragraph.style.color="red";
+        paragraph.style.background="yellow";
+    })
+
+    const btn2=document.querySelector("#addClass");
+    const paraElement=document.querySelector("p");
+    btn2.addEventListener("click",()=>{
+        // alert("check once it is woring or not");
+        paraElement.classList.add('activePara');
+    
+    })
+
+    btn3=document.querySelector("#removeClass");
+    btn3.addEventListener("click",()=>{
+        paraElement.classList.remove('activePara');
+    })
+
+    btn4=document.querySelector("#toggleClass");
+    btn4.addEventListener("click",()=>{
+        paraElement.classList.toggle("activePara");
+    })
+</script>
+
+</html>

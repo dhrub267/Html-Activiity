@@ -1,0 +1,25 @@
+h1{
+    border-width: 5px;
+    border-style: solid;
+    border-color: brown;
+    float:left;
+    background-color: aqua;
+    clear:both;
+}
+
+h2{
+    border-width: 5px;
+    border-style: solid;
+    border-color:blue;
+    float:left;
+    clear:both
+}
+
+
+h3{
+    border-width: 5px;
+    border-style: solid;
+    border-color:green;
+    clear: both;
+
+}

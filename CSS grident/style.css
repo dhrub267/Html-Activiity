@@ -1,0 +1,6 @@
+#first {
+    width: 200px;
+    height: 200px;
+    /* background: linear-gradient(red, yellow); */
+    background: linear-gradient(to right,red, yellow);
+}

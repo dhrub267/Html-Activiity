@@ -1,0 +1,23 @@
+p{
+    width: 250px;
+    border-width: 5px;
+    border-style:solid;
+    border-color:brown;
+    padding:10px;
+    /* text-align:center; */
+    /* text-align:left; */
+    /* text-align:right; */
+    /* text-align: justify; */
+
+    /* text-aling-last */
+    /* text-align-last:right;
+    /* text-align-last:left;
+    text-align-last:center;
+    text-align-last:justify; */ 
+    
+
+    text-indent: 100px;
+    /* word-spacing: 30px; */
+    letter-spacing: 10px;
+
+}

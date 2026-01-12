@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .active{
+        background-color: antiquewhite;
+        color:red;
+
+      }
+
+    </style>
+</head>
+<body>
+    <h1>Travesing The Dom</h1>
+    <button id="css">click here</button>
+
+    <div class="parent">
+        <h2>I am childeren of div</h2>
+    </div>
+</body>
+<script>
+    const btn=document.querySelector("#css");
+    const element=document.querySelector("h2");
+
+    btn.addEventListener("click",()=>{
+        // btn.parentElement.remove("parent");
+        btn.parentElement.style.active;
+    })
+</script>
+</html>
